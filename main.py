@@ -6,7 +6,7 @@ Created on Thu Jun 18 17:50:33 2020
 @author: augustinjose
 """
 
-with open("dataset.txt", "r+") as file:
+with open("Question-Classifier/dataset.txt", "r+") as file:
     text = file.readlines()
 who = []   
 what = []
